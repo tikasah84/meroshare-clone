@@ -1,0 +1,32 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebarOption:hover {
+  opacity: 0.1;
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+  padding: 10px;
+  color: white;
+}
+
+.sidebarOption > h2 {
+  font-weight: 800;
+  font-size: 10px;
+  margin-right: 20px;
+  color: white;
+}
+
+.sidebarOption--active {
+  opacity: 0.3;
+  border-radius: 1px;
+  width: 100%;
+  background-color: rgb(4, 4, 36);
+}
+.menu {
+  color: white;
+  cursor: pointer;
+}

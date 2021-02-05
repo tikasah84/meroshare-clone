@@ -1,0 +1,65 @@
+.Container {
+  position: relative;
+  height: 98vh;
+  width: 100vw;
+  background-color: #333a56;
+}
+.Card {
+  position: absolute;
+  top: 15%;
+
+  margin: auto;
+  position: relative;
+  height: 70vh;
+  width: 36vw;
+  background-color: #333a56;
+  border-radius: 5px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.text {
+  text-align: center;
+  color: aliceblue;
+}
+.logo {
+  width: 36vw;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+form {
+  margin-left: 10%;
+}
+label {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #fafafa !important;
+}
+label > .MuiSvgIcon-root {
+  padding-right: 5px;
+}
+select {
+  cursor: pointer;
+  width: 28vw;
+  height: 5vh;
+}
+input {
+  width: 28vw;
+  height: 5vh;
+}
+Button {
+  margin-top: 40px !important;
+  color: white !important;
+  background-color: #5e6ea7 !important;
+  height: 6vh;
+}
+
+.Card option {
+  font-size: 14px;
+  margin: 15px;
+  padding: 30px;
+
+  max-height: 16px;
+  overflow: auto;
+}
