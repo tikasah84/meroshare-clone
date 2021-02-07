@@ -1,4 +1,6 @@
 .navbar {
+  display: flex;
+  flex-direction: row;
   width: 100vw;
   height: 8vh;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -8,12 +10,42 @@
 }
 
 .menu {
+  justify-content: space-between;
+  align-items: center;
   color: black;
   margin-left: 20px;
   margin-top: 15px;
 }
 .exit {
-  position: relative;
-  left: 70%;
-  bottom: 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  margin-left: 65%;
+  opacity: 0.6;
+}
+
+.exit > .MuiSvgIcon-root {
+  margin-right: 40px;
+}
+
+.profile-text {
+  font-size: 12px;
+  color: #333a56;
+}
+
+.profile-text h3 {
+  margin-left: 35px;
+}
+
+.exit > .exitIcon {
+  height: 10px;
+  border: 2px;
+  color: #333a56;
+  visibility: hidden;
+  margin-top: 40px;
+}
+.exitIcon:hover {
+  visibility: visible !important;
 }
